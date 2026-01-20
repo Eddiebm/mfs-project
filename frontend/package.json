@@ -1,5 +1,5 @@
 {
-  "name": "rewb-autopilot-frontend",
+  "name": "mfs-autopilot-frontend",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -7,8 +7,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
     "next": "14.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "@types/react": "^19.2.9",
+    "typescript": "^5.9.3"
   }
 }
